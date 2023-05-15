@@ -27,7 +27,7 @@ export default function RootLayout({
     <html lang="en">
       
       <body className={inter.className}><nav>
-        <ul className="flex  gap-1">
+        <ul className="flex  gap-5 p-5">
           {links.map(({label, route})=>(
             <li key={route}>
               <Link href={route}>{label}</Link>
